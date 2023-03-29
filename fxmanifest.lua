@@ -1,7 +1,8 @@
 fx_version 'cerulean'
 game 'gta5'
-author "doxtery#3135"
-description "Free Clean LoadingScreen"
+author "Ian McClellan"
+description "FiveM LoadingScreen for Ian McClellan"
+version '1.0.0'
 
 files {
     'index.html',
