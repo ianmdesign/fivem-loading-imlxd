@@ -1,13 +1,14 @@
 fx_version 'cerulean'
-game 'gta5'
+game 'common'
 author "Ian McClellan"
 description "FiveM LoadingScreen for Ian McClellan"
-version '1.0.0'
+version '1.0.1'
 
 files {
-    'index.html',
-    'assets/song.mp3',
-    'assets/logo.png'
+    'song.mp3',
+    'video.webm',
+    'logo.png',
+    'index.html'
 }
 
 loadscreen 'index.html'
