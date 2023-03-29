@@ -37,12 +37,12 @@
 	</style>
 </head>
 <body>
-	<video autoplay muted loop>
-		<source src="https://ianmlxdesign.ca/wp-content/uploads/2023/03/video-1.mp4" type="video/mp4">
+	<video autoplay muted loop id="videoback">
+		<source src="video.webm" type="video/webm">
 	</video>
-	<img src="assets/logo.png">
-	<audio autoplay loop volume="0.3" id="audio_loading">
-		<source src="assets/song.mp3" type="audio/mp3">
+	<img src="logo.png">
+	<audio autoplay loop id="audio_loading">
+		<source src="song.mp3" type="audio/mp3">
 	</audio>
 <script>
 
@@ -68,10 +68,5 @@ function onKeyDown(event) {
 
 window.addEventListener("keydown", onKeyDown, false);
 </script>
-
-<script src="config.js"></script>
-<script src="assets/main.js"></script>
-
-
 </body>
 </html>
