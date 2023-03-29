@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Video Background with Overlay Image and Hidden MP3</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background: #000;
+		}
+
+		video {
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			z-index: -1;
+			overflow: hidden;
+		}
+
+		img {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 50%;
+			z-index: 1;
+		}
+
+		audio {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<video autoplay muted loop>
+		<source src="https://ianmlxdesign.ca/wp-content/uploads/2023/03/video-1.mp4" type="video/mp4">
+	</video>
+	<img src="assets/logo.png">
+	<audio autoplay loop volume="0.3" id="audio_loading">
+		<source src="assets/song.mp3" type="audio/mp3">
+	</audio>
+<script>
+
+var play = true;
+var myAudio = document.getElementById("audio_loading");
+
+myAudio.volume = 0.1;
+
+function onKeyDown(event) {
+        switch (event.keyCode) {
+            case 32: //SpaceBar                    
+                if (play) {
+                    myAudio.pause();
+                    play = false;
+                } else {
+                    myAudio.play();
+                    play = true;
+                }
+                break;
+        }
+  return false;
+}
+
+window.addEventListener("keydown", onKeyDown, false);
+</script>
+
+<script src="config.js"></script>
+<script src="assets/main.js"></script>
+
+
+</body>
+</html>
