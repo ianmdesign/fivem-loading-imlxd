@@ -6,7 +6,7 @@ version '1.0.0'
 
 files {
     'index.html',
-    'music/song.mp3',
+    'assets/song.mp3',
     'assets/logo.png'
 }
 
