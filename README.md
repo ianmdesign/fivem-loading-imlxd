@@ -2,7 +2,7 @@
 
 ## Overview
 
-The "fivemloading-imlxd" repository contains a custom loading screen for the FiveM modification for the popular video game Grand Theft Auto V (GTA V). This loading screen features a minimalistic design and can be customized to include your own logo, background image, and audio.
+The "fivemloading-imlxd" repository contains a custom loading screen for the FiveM modification for the popular video game Grand Theft Auto V (GTA V). This loading screen features a minimalistic design and can be customized to include your own logo, background video, and audio.
 
 ## Installation
 
@@ -18,19 +18,19 @@ To use this loading screen in your FiveM server, follow these steps:
 
 ## Customization
 
-To customize the loading screen, you can modify the "index.html" file in the "html" folder of the repository. Here are some things you can customize:
+To customize the loading screen, you can modify the "index.html" file. Here are some things you can customize:
 
 ### Logo
 
-To add your own logo, replace the "logo.png" file in the "html/img" folder with your own logo file. The recommended size for the logo is 512x512 pixels.
+To add your own logo, replace the "logo.png" file with your own logo file. The recommended size for the logo is at least 512x512 pixels.
 
 ### Background Image
 
-To add your own background image, replace the "background.jpg" file in the "html/img" folder with your own image file. The recommended size for the background image is at least 1920x1080 pixels, but highly recommended that aspect ration 16x9 is used for FiveM Compatability.
+To add your own background image, replace the "video.mp4" file with your own video file. The recommended size for the background video is at least 1920x1080 pixels, but highly recommended that aspect ration 16x9 is used for FiveM Compatability.
 
-### Loading Text
+### Audio
 
-To change the loading text, modify the "loading_text" variable in the "index.html" file. You can change the text to anything you like.
+To change the Background Audio, replace the "song.mp3" file with your own audio file.
 
 ## Credits
 
