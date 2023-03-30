@@ -2,7 +2,7 @@
 
 ## Overview
 
-The "fivemloading-imlxd" repository contains a custom loading screen for the FiveM modification for the popular video game Grand Theft Auto V (GTA V). This loading screen features a minimalistic design and can be customized to include your own logo, background image, and loading text.
+The "fivemloading-imlxd" repository contains a custom loading screen for the FiveM modification for the popular video game Grand Theft Auto V (GTA V). This loading screen features a minimalistic design and can be customized to include your own logo, background image, and audio.
 
 ## Installation
 
