@@ -26,7 +26,7 @@ To add your own logo, replace the "logo.png" file in the "html/img" folder with 
 
 ### Background Image
 
-To add your own background image, replace the "background.jpg" file in the "html/img" folder with your own image file. The recommended size for the background image is 1920x1080 pixels.
+To add your own background image, replace the "background.jpg" file in the "html/img" folder with your own image file. The recommended size for the background image is at least 1920x1080 pixels, but highly recommended that aspect ration 16x9 is used for FiveM Compatability.
 
 ### Loading Text
 
@@ -34,7 +34,7 @@ To change the loading text, modify the "loading_text" variable in the "index.htm
 
 ## Credits
 
-This loading screen was created by IanMDesign. If you use this loading screen in your FiveM server, please credit IanMDesign in your server's README or website.
+This loading screen was created by Ian McClellan. If you use this loading screen in your FiveM server, please credit Ian McClellan in your server's README or website.
 
 ## License
 
